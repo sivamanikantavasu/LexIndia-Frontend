@@ -527,13 +527,3 @@ export default function ManageUsers() {
     </DashboardLayout>
   );
 }
-                  <div>
-                    <label className="block text-sm text-[#64748B]">Password</label>
-                    <input
-                      type="text"
-                      value={formData.password}
-                      onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-                      placeholder="Defaults to password@123"
-                      className="w-full pl-4 pr-4 py-3 border border-[#0A1F44]/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF9933] bg-white"
-                    />
-                  </div>
